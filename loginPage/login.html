@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title id="tl">Loging & Registration</title>
+        <meta name="description" content="">
+        <meta name="theme-color" content="#1bb566">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="login.css" type="text/css">
+    </head>
+    <body>
+        
+        <header id="hd">
+            <h1 id="hd1">Welcome to Atif's Free Online Learning Portal!</h1>
+            <p>Here I provide you with the best free online courses, learning resources and guides; 
+            hereby please make sure to signup, register and login to your accounts to get access to them. Thanks</p>
+        </header>
+           
+            <section class="sec1">
+                <form action="">
+                <h3 id="hd2">Login Form:</h3>
+                <span id="em">Email:<input type="email" placeholder="Email Here" required></span><br><br>
+                <span id="pw">Password: <input type="password" placeholder="Password Here" value="ABC" required></span>
+                <span id="lg"><input type="submit" value="Login"></span>
+                <span id="re"><input type="checkbox">Remember Me?</span>
+                </form>
+            </section>
+
+            <section class="sec2">
+                <form action="">
+                <h3 id="hd2">Sign Up Form:</h3>
+                <span id="em">Email:<input type="email" placeholder="Email Here" required></span> <br><br>
+                <span id="pw">Password:<input type="password" placeholder="Password Here" value="ABC" required></span><br><br>
+                <span id="pw">Confirm Password:<input type="password" placeholder="Confirm Password" value="ABC" required></span><br><br>
+                <span id="em">User Name:<input type="text" placeholder="Username Here" required></span>
+                <span id="su"><input type="submit" value="Sign Up"></span>
+                </form>
+            </section>
+
+            <section class="sec3">
+                <form action="">
+                    <h3 class="hd3">Registration Form:</h3>
+                    <p class="fn">First Name: <input type="text" placeholder="First Name Here" required></p>
+                    <p class="ln">Last Name: <input type="text" placeholder="Last Name Here"></p>
+                    <p class="sid">ID#: <input type="text" placeholder="ID Number Here"></p>
+                    <p class="con">Contact#: <input type="number" placeholder="Contact Number Here"></p>
+                    <p class="em">Email: <input type="email" placeholder="Email Here"></p>
+                    <!-- Text Area using HTML -->
+                    <p class="add">Address:<textarea name="myadd" id="" cols="20" rows="3" placeholder="St Name/No., Apt  City, State, Zip Code"></textarea></p>
+                    <p class="dob">Date of Birth: <input type="date"></p>
+                    <p class="m"><label for="M">Male:</label><input type="radio" id="M" name="gender" value="Male"></p>
+                    <p class="f"><label for="F">Female:</label><input type="radio" id="F" name="gender" value="Female"></p>
+                    <p class="tm">Timing: From:<input type="time"> To:<input type="time"></p>
+                    <p class="up">Upload Photo:<input type="file"></p>
+                    <!-- Dropdown Menu -->
+                    <p class="sub"><label for="subject">Choose a subject:</label>
+                        <select name="subject-name" id="subject-name">
+                            <option value="math">Math</option>
+                            <option value="science">Science</option>
+                            <option value="technology">Technology</option>
+                            <option value="art">Art</option>
+                        </select>
+                    </p>
+                    <p class="sb"><input type="submit" value="Submit Form"></p>
+                </form>
+            </section>
+
+
+            <footer>
+                <p>Copyright &copy; 2024 Sayed Atif. All rights reserved.</p>
+            </footer>
+
+
+
+        <script src="app.js" async defer type="text/js"></script>
+    </body>
+</html>

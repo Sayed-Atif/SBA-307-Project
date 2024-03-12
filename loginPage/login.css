@@ -1,0 +1,145 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+
+#hd{
+    text-align: center;
+    font-size: x-large;
+    font-family: fantasy;
+    margin: 50px;
+}
+
+#hd:hover{
+    border: dotted 5px;
+    background-color: palegreen;
+}
+
+.sec1{
+    position: relative;
+    border: solid orange 1px;
+    background-color: cadetblue;
+    width: 35vh;
+    height: 30vh;
+    padding: 5px;
+    margin: 5px;
+    top: 30px;
+    left: 5%;
+    bottom: 155px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#lg{
+    position: absolute;
+    top: 150px;
+    left: 27%;
+    margin: 5px;
+    padding: 5px;
+    border: solid black 2px;
+    border-radius: 20px;
+    border-width: 3px;
+    background-color: blue;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+}
+
+#re{
+    position: absolute;
+    top: 200px;
+    left: 27%;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.sec2{
+    position: relative;
+    border: solid orange 1px;
+    background-color: cadetblue;
+    width: 40vh;
+    height: 35vh;
+    padding: 5px;
+    margin: 5px;
+    left: 70%;
+    bottom: 215px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+#su{
+    position: absolute;
+    top: 200px;
+    left: 33%;
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+    border: solid black 3px;
+    border-radius: 20px;
+}
+
+.sec3{
+    position: relative;
+    border: solid orange 1px;
+    background-color: cadetblue;
+    width: 47vh;
+    height: 100vh;
+    left: 38%;
+    bottom: 170px;
+    padding: 5px;
+    margin: 5px;
+    left: 35%;
+    bottom: 155px;
+    border-radius: 20px;
+}
+
+.sb{
+    position: absolute;
+    top: 700px;
+    left: 33%;
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+    border: solid black 3px;
+    border-radius: 20px;
+}
+
+
+#hd2, #em, #pw{
+    padding: 5px;
+    margin: 5px;
+    color: blueviolet;
+}
+
+.hd3, .fn, .ln, .em, .sid, .con, .add, .dob, .m, .f, .tm, .sub, .sb, .up{
+
+    padding: 8px;
+    margin: 8px;
+    color: blueviolet;
+}
+
+footer{
+    position: relative;
+    padding: 5px;
+    color: darkgreen;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    font-family: fantasy;
+    margin: 50px;
+    /* align-items: center; */
+}
+
+
+
+
+
+
+
+
+
